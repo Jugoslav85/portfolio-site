@@ -19,11 +19,6 @@ function Header() {
                 <i className="fa fa-home fa-fw mr-1"></i>Home
               </Link>
             </li>
-            <li className="nav-item active pl-1">
-              <Link className="nav-link" to="/blog">
-                <i className="fa fa-th-list fa-fw mr-1"></i>Blog
-              </Link>
-            </li>
             <li className="nav-item pl-1">
               <Link className="nav-link" to="/about-me">
                 <i className="fa fa-info-circle fa-fw mr-1"></i>About me

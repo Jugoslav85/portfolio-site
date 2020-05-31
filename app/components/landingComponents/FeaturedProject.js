@@ -43,7 +43,7 @@ function FeaturedProject() {
               </ul>
             </div>
           </div>
-          <button type="button" className="mt-3 btn btn-secondary btn-lg btn-block">
+          <button id="landingBackground" type="button" className="mt-3 btn btn-secondary btn-lg btn-block">
             Block level button
           </button>
         </div>

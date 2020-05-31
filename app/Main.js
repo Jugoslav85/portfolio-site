@@ -6,6 +6,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import ProjectsPage from "./components/ProjectsPage";
 import Landing from "./components/Landing";
 import Contact from "./components/Contact";
 
@@ -20,6 +21,9 @@ function Main() {
           </Route>
           <Route path="/about-me">
             <About />
+          </Route>
+          <Route path="/portfolio">
+            <ProjectsPage />
           </Route>
           <Route path="/contact">
             <Contact />

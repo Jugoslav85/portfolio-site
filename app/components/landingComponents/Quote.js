@@ -17,16 +17,16 @@ function Quote() {
       <div className="container col-lg-5 mb-5 mx-3 mx-sm-0 mt-lg-5 pt-5 text-center text-lg-left">
         <ul id="connect" className="list-group-flush">
           <li className=" py-2">
-            <i className="fab fa-react"></i>&nbsp; jugoslav34@gmail.com
+            <i className="far fa-envelope"></i>&nbsp; jugoslav34@gmail.com
           </li>
           <li className="py-2">
-            <i className="fab fa-node-js"></i>&nbsp; Via GitHub
+            <i className="fab fa-github"></i>&nbsp; Via GitHub
           </li>
           <li className="py-2">
-            <i className="fas fa-bold"></i>&nbsp; Via LinkedIn
+            <i className="fab fa-linkedin"></i>&nbsp; Via LinkedIn
           </li>
           <li className="py-2">
-            <i className="fas fa-bold"></i>&nbsp; Via Facebook
+            <i className="fab fa-facebook-square"></i>&nbsp; Via Facebook
           </li>
         </ul>
       </div>
