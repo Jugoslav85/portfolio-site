@@ -4,14 +4,17 @@ import Welcome from "./landingComponents/Welcome";
 import Projects from "./landingComponents/Projects";
 import FeaturedProject from "./landingComponents/FeaturedProject";
 import Quote from "./landingComponents/Quote";
+import Page from "./Page";
 
 function Landing() {
   return (
     <>
-      <Welcome />
-      <FeaturedProject />
-      <Projects />
-      <Quote />
+      <Page title="Home">
+        <Welcome />
+        <FeaturedProject />
+        <Projects />
+        <Quote />
+      </Page>
     </>
   );
 }
